@@ -1,0 +1,44 @@
+@font-face {
+    font-family: NiceFont;
+    src: url(NiceFont.ttf)
+}
+body{
+    background-image: url('../images/gray_gradient_noise_oboina_minimalism_hd-wallpaper-243576.jpg');
+
+    font-family: NiceFont;
+    margin: 0;
+    padding-top: 180px;
+
+}
+#uploadbutton{
+  width: 100px;
+}
+
+
+
+input[type=search], input[type=text], input[type=password], input[type=email] {
+    width: 230px;
+    background-image: url('searchicon.png');
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #AF66D5;
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #612580;;
+}

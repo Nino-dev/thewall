@@ -1,0 +1,33 @@
+.holder {
+    width: 400px;
+    float: left;
+    height: 200px;
+    margin: 18px;
+    padding: 0;
+}
+
+.image {
+    width: 400px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+}
+
+h4 {
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+}
+p#source {
+    clear: both;
+    text-align: center;
+}
+
+p#source a {
+    font-size: 10px;
+    text-decoration: none;
+    color: darkgrey;
+}
